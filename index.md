@@ -578,7 +578,8 @@ Query number 5, seen in the [Running Queries Section](#3.1-Running-Queries-in-My
 To display the data clearly, I had to do some organization and cleanup to have a clear understanding of the trend. First, I grouped each year with their corresponding months. This was done to have an output of each month of each year. I then added the sales per month to each date row. The table had some null values for month sale totals, which would cause the plot to look messy. Therefore, I specified in my code that all values that were not null were not going to be taken into account. Additionally, I read the results from the query into a dataframe for better readability. I added a code line that made the date column I created into a datetime format; this eased the plotting process. At last, I only had the years as the tick marks in the x axis; this made the x axis readable and not crowded by every month of every year.
 
 1. Retail and Food Services Sales, Total
-![Screenshot 2024-09-25 at 1.39.58 PM.png](attachment:1cd90512-0f8b-4b3a-a1d6-df9c8d8688f4.png)
+<img width="1332" alt="Screenshot 2024-10-29 at 4 45 55 PM" src="https://github.com/user-attachments/assets/1a33f5ff-abb5-4838-bc00-1974c3a9c81c">
+
 
 
 2. Retail sales and food services excl motor vehicle and parts

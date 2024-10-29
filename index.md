@@ -580,22 +580,18 @@ To display the data clearly, I had to do some organization and cleanup to have a
 1. Retail and Food Services Sales, Total
 <img width="1332" alt="Screenshot 2024-10-29 at 4 45 55 PM" src="https://github.com/user-attachments/assets/1a33f5ff-abb5-4838-bc00-1974c3a9c81c">
 
-
-
 2. Retail sales and food services excl motor vehicle and parts
-![Screenshot 2024-09-25 at 4.59.44 PM.png](attachment:7c054d7d-03b9-4599-98ce-d7a14ea783a7.png)
-
+<img width="1333" alt="Screenshot 2024-10-29 at 4 46 05 PM" src="https://github.com/user-attachments/assets/abd77e63-f3fb-449e-8848-b82b5196c680">
 
 3. Retail sales and food services excl gasoline stations
-![Screenshot 2024-09-25 at 4.57.48 PM.png](attachment:8d016c39-7bd7-4e5a-ae0b-81cff87fb9fe.png)
-
+<img width="1338" alt="Screenshot 2024-10-29 at 4 46 15 PM" src="https://github.com/user-attachments/assets/73edf9e8-6de4-4d4f-8463-a5b25e116799">
 
 4. Retail sales and food services excl motor vehicle and parts and gasoline stations
-![Screenshot 2024-09-25 at 4.55.37 PM.png](attachment:9f737e40-2346-4460-8b68-74d264892f74.png)
-
+<img width="1377" alt="Screenshot 2024-10-29 at 4 46 27 PM" src="https://github.com/user-attachments/assets/dcfd68ac-18e3-41e0-a8de-5ba00688f11c">
 
 5. Retail sales, Total
-![Screenshot 2024-09-25 at 4.53.27 PM.png](attachment:df47bc84-4ca4-41d9-92c6-4ae116821926.png)
+<img width="1305" alt="Screenshot 2024-10-29 at 4 46 36 PM" src="https://github.com/user-attachments/assets/88f24dc1-1233-4b37-9732-4f68d60e30b2">
+
 
 After plotting every retail category, it is very clear that this category has an upward trend. In part, this is due to the regular inflation that happens as time passes. It is a good indicator of an economy that is constantly growing; of course, to a certain extent. I also noticed that The Great Recession is very noticeable. Between 2008 and 2009, there is a short downtrend that demonstrates the effects of the recession period. Another short downtrend that I spotted in my plots is the negative effects of the COVID-19 pandemic on the economy. At the end of 2019 and the beginning of 2020, there is a steep downtrend. But then, in the end of 2020, there is a strong recuperation from the economy which restores the uptrend of the US. One last thing I want to add is the fact that there is also an uptrend during each year. This may be due to the Christmas season which normally increases sales. But, when the next year starts, it always starts below the last value of the last month of the last year.
 
@@ -604,12 +600,12 @@ After plotting every retail category, it is very clear that this category has an
 I wanted to do some further analysis by comparing other businesses such as sporting good stores, hobby and toys stores, and book stores. By analyzing these businesses I can get a better idea of how each business behaves through seasons and economic historical times. To plot the graphs that helped me visualize the trends, I used the same query and code script that was used for the retail and food services analysis.
 
 1. Sporting Good Stores
-![Screenshot 2024-09-25 at 7.12.40 PM.png](attachment:f55c158e-5d41-482c-8bf7-293a29e6b9e8.png)
+<img width="1323" alt="Screenshot 2024-10-29 at 4 46 46 PM" src="https://github.com/user-attachments/assets/63a2061f-14d8-4202-a0f7-a3ecd912e318">
 
 This industry has overall shown an uptrend, the same as the retail and food services industry. But, between the years 2016-2020, I noticed a downtrend. After some investigation, I realized that the sporting goods industry had a negative impact because of multiple factors. One factor was the E-commerce growth. Online shopping became increasingly popular, leading to a shift in sales away from traditional brick-and-mortar stores. Another factor was the rise of direct-to-consumer brands which bypassed traditional retailers. The last big factor, was the COVID-19 pandemic which led to widespread lockdowns and restrictions on outdoor activities, causing a sharp decline in demand for sporting goods. As gyms closed, consumers turned to home fitness equipment, leading to a surge in demand for products like treadmills, dumbbells, and yoga mats. The demand of these products at people's homes caused the industry to return to an uptrend, as seen in the plot. Also, once the lockdowns were over, people were eager to go back into sports, fitness, and outdoor activities.
 
 
-3. Hobby, Toy, and Game Stores
+2. Hobby, Toy, and Game Stores
 ![Screenshot 2024-09-25 at 8.27.51 PM.png](attachment:db833fdd-a989-41ac-8e36-71d62f0cb576.png)
 
 The category of hobby, toy, and game stores has a stationary trend between 1992-2021. There is an all-time peak in 1997, which surprised me. I could also easily notice a seasonal pattern for the Christmas season. Between the months of November to January the sales reach high peaks, an exponential growth from the average sales of the past months, But, it then drops back down to the stationary trend. This pattern was repeated all the way until 2018. There is a downtrend between 2018-2020. After some doing some research, I understood that this downtrend had happened because of multiple factors, as usual.
@@ -620,7 +616,7 @@ Secondly, another factor that played a big role in the downtrend of these indust
 
 Lastly, online retailers like Amazon and Walmart gained significant market share, offering a wider selection of products, competitive prices, and convenient delivery options. This shift led to increased competition for traditional brick-and-mortar stores. Consumers increasingly prefer shopping online, especially for convenience and price comparison. This trend accelerated during the COVID-19 pandemic, as lockdowns and social distancing measures limited in-store shopping.
 
-4. Book stores
+2. Book stores
 ![Screenshot 2024-09-25 at 8.33.42 PM.png](attachment:f6fdf7ed-1f40-4ce3-9030-edb2dd8e1df6.png)
 
 There is a clear upward trend in sales from 1992 until around 2007-2008. This was likely a time of growth in retail book sales, particularly with the rise of large bookstore chains. Sales appear to peak sharply around the holiday season (likely November, December, and January), which is typical in retail sectors due to holiday shopping. Also, there are peaks in August, this indicates that this increase in sales might be due to schools starting their academic years, and having professors and students purchase all necessary books for the year.

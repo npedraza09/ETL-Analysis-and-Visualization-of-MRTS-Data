@@ -338,7 +338,7 @@ cursor.close()
 db_connection.close()
 ```
 
-2. 
+2.  
 ```python
 import mysql.connector
 
@@ -379,7 +379,7 @@ cursor.close()
 db_connection.close()
 ```
 
-3.
+3. 
 ```python
 import mysql.connector
 

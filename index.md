@@ -585,7 +585,7 @@ Why are economic trends important for predicting quantities like spending patter
 ---
 In the MRTS data, I decided to explore different trends across multiple kinds of businesses. I started by analyzing the trend of the retail and food services categories; these categories have a huge impact on the total sales per year. 
 
-Query number 5, seen in the [Running Queries Section](#3.1-Running-Queries-in-MySQL-Workbench), is the query I used to get the total sales of each month of each year in the table from the retail and food services categories. In the query I included in this document, you can only see the query for 'Retail and food services sales, total', but I just had to change the name of the category to output the data from other categories. I then wrote a python code and integrated the query that I ran in MySQL Workbench to plot a graph that showed me the trend for each retail and food services category; this script can be seen as number 5 in [Running Queries From Python](#3.2-Running-Queries-From-Python)
+Query number 5, seen in the [Running Queries Section](#Running-Queries-in-MySQL-Workbench), is the query I used to get the total sales of each month of each year in the table from the retail and food services categories. In the query I included in this document, you can only see the query for 'Retail and food services sales, total', but I just had to change the name of the category to output the data from other categories. I then wrote a python code and integrated the query that I ran in MySQL Workbench to plot a graph that showed me the trend for each retail and food services category; this script can be seen as number 5 in [Running Queries From Python](#Running-Queries-From-Python)
 
 To display the data clearly, I had to do some organization and cleanup to have a clear understanding of the trend. First, I grouped each year with their corresponding months. This was done to have an output of each month of each year. I then added the sales per month to each date row. The table had some null values for month sale totals, which would cause the plot to look messy. Therefore, I specified in my code that all values that were not null were not going to be taken into account. Additionally, I read the results from the query into a dataframe for better readability. I added a code line that made the date column I created into a datetime format; this eased the plotting process. At last, I only had the years as the tick marks in the x axis; this made the x axis readable and not crowded by every month of every year.
 
@@ -758,7 +758,7 @@ The result of this code script is the following plot:
 
 The results surprised me because I thought these categories would have a constant positive percentage change throughout time. The Men's and Women's clothing store businesses keep a steady line. Their percentage change never really increases or decreases drastically, until 2020 and 2021. During these two years, there is a massive drop in percentage change, mainly affected by the COVID-19 pandemic which severely impacted retail sales across most sectors, particularly clothing. Overall, the Women's clothing businesses kept a higher percentage change, but not too far away from the men. These two categories show an incredible relationship; they both keep a stationary trend and if one drops, the other one as well. This relationship is not really affected through time. During the 2008 financial crisis, the Men's category suffered a slightly larger percentage drop, but not too far away from the women. 
 
-To confirm the credibility of the last plot, I decided to use again the script from point 5 in [Running Queries From Python](#3.2-Running-Queries-From-Python). I just had to change the Kind of Business to Men's and Women's clothing stores. The results were the following:
+To confirm the credibility of the last plot, I decided to use again the script from point 5 in [Running Queries From Python](#Running-Queries-From-Python). I just had to change the Kind of Business to Men's and Women's clothing stores. The results were the following:
 <img width="1254" alt="Screenshot 2024-10-29 at 4 47 35 PM" src="https://github.com/user-attachments/assets/b190fe05-85bc-41ea-97be-7d8f4d3935a1">
 
 <img width="1288" alt="Screenshot 2024-10-29 at 4 47 47 PM" src="https://github.com/user-attachments/assets/788070e5-32d5-48bb-bb1e-b3043eabb9eb">
@@ -776,7 +776,7 @@ SET
     `Total` = `January` + `February` + `March` + `April` + `May` + `June` + `July` + `August` + `September` + `October` + `November` + `December`
 WHERE `Kind of Business` = "Men's clothing stores" AND Year = 2020;
 ```
-After I wrote this query, I had to write the Pythons cript to plot the percentage contribution of each business to the whole. The code I wrote is the following:
+After I wrote this query, I had to write the Pythons script to plot the percentage contribution of each business to the whole. The code I wrote is the following:
 
 
 ```python
@@ -947,7 +947,7 @@ This plot indicates a clearer visualization of the trend as it does get greatly 
 
 The 'Food Services and Drinking Places' category is a vital component of the retail economy, reflecting consumer spending habits in dining and entertainment. Analyzing this category using a 4-month rolling time window helps smooth out short-term fluctuations and highlights underlying trends, providing clearer insights into spending patterns.
 
-To analyze this category I first plotted the original graph of sales per year. This will allow me to differentiate the seasonal peaks affecting objective visualization of the trend, and the difference with the smooth-out process that the rolling windows cause to determine underlying trends. I used the same script from point 5 in [Running Queries From Python](#3.2-Running-Queries-From-Python) and replaced the kind of business for 'Food Services and Drinking Places', the result is the following:
+To analyze this category I first plotted the original graph of sales per year. This will allow me to differentiate the seasonal peaks affecting objective visualization of the trend, and the difference with the smooth-out process that the rolling windows cause to determine underlying trends. I used the same script from point 5 in [Running Queries From Python](#Running-Queries-From-Python) and replaced the kind of business for 'Food Services and Drinking Places', the result is the following:
 <img width="1338" alt="Screenshot 2024-10-29 at 4 48 26 PM" src="https://github.com/user-attachments/assets/fada5c1d-b3d6-4555-8313-99bf1fdfa40f">
 
 

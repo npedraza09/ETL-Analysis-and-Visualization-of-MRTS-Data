@@ -11,7 +11,7 @@
          - [2.4.1 Reading Sample Data](#Reading-Sample-Data)
          - [2.4.2 Reading the MRST Data](#Reading-the-MRST-Data)
     - [2.5 Writing an Installation Script](#Writing-an-Installation-Script)
-- [3. Analysis and Visualization](#Project-Description)
+- [3. Analysis and Visualization](#Analysis-and-Visualization)
     - [3.1 Running Queries in MySQL Workbench](#Running-Queries-in-MySQL-Workbench)
     - [3.2 Running Queries From Python](#Running-Queries-From-Python)
     - [3.3 Exploring Trends](#Explore-Trends)
@@ -310,7 +310,7 @@ SELECT
 <a class="anchor" id="Running-Queries-From-Python"></a>
 ### 3.2 Running Queries From Python
 
-1.
+1. 
 ```python
 import mysql.connector
 
@@ -348,8 +348,7 @@ for row in table_description:
 cursor.close()
 db_connection.close()
 ```
-
-2.  
+2. 
 ```python
 import mysql.connector
 
@@ -434,10 +433,9 @@ for row in results:
 # Step 7: Close the cursor and connection
 cursor.close()
 db_connection.close()
-
 ```
 
-4.
+4. 
 ```python
 import mysql.connector
 
@@ -484,7 +482,6 @@ cursor.close()
 db_connection.close()
 
 ```
-
 5. 
 ```python
 from sqlalchemy import create_engine
@@ -564,7 +561,6 @@ years = df['Date'].dt.year.unique()
 plt.xticks(pd.to_datetime([f'{year}-01-01' for year in years]), years, rotation=45)
 
 plt.show()
-
 ```
 
 

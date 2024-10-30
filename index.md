@@ -606,7 +606,7 @@ This industry has overall shown an uptrend, the same as the retail and food serv
 
 
 2. Hobby, Toy, and Game Stores
-![Screenshot 2024-09-25 at 8.27.51 PM.png](attachment:db833fdd-a989-41ac-8e36-71d62f0cb576.png)
+<img width="1346" alt="Screenshot 2024-10-29 at 4 46 55 PM" src="https://github.com/user-attachments/assets/412f7a94-0e79-47fa-9d55-b2cac110b691">
 
 The category of hobby, toy, and game stores has a stationary trend between 1992-2021. There is an all-time peak in 1997, which surprised me. I could also easily notice a seasonal pattern for the Christmas season. Between the months of November to January the sales reach high peaks, an exponential growth from the average sales of the past months, But, it then drops back down to the stationary trend. This pattern was repeated all the way until 2018. There is a downtrend between 2018-2020. After some doing some research, I understood that this downtrend had happened because of multiple factors, as usual.
 
@@ -616,8 +616,8 @@ Secondly, another factor that played a big role in the downtrend of these indust
 
 Lastly, online retailers like Amazon and Walmart gained significant market share, offering a wider selection of products, competitive prices, and convenient delivery options. This shift led to increased competition for traditional brick-and-mortar stores. Consumers increasingly prefer shopping online, especially for convenience and price comparison. This trend accelerated during the COVID-19 pandemic, as lockdowns and social distancing measures limited in-store shopping.
 
-2. Book stores
-![Screenshot 2024-09-25 at 8.33.42 PM.png](attachment:f6fdf7ed-1f40-4ce3-9030-edb2dd8e1df6.png)
+3. Book stores
+<img width="1330" alt="Screenshot 2024-10-29 at 4 47 05 PM" src="https://github.com/user-attachments/assets/ffa84ae1-ca89-4107-aa18-80c501d3da92">
 
 There is a clear upward trend in sales from 1992 until around 2007-2008. This was likely a time of growth in retail book sales, particularly with the rise of large bookstore chains. Sales appear to peak sharply around the holiday season (likely November, December, and January), which is typical in retail sectors due to holiday shopping. Also, there are peaks in August, this indicates that this increase in sales might be due to schools starting their academic years, and having professors and students purchase all necessary books for the year.
 
@@ -733,14 +733,14 @@ plt.tight_layout()
 plt.show()
 ```
 The result of this code script is the following plot:
-![Screenshot 2024-09-27 at 9.14.31 AM.png](attachment:89fd1b3e-3a0d-4a13-8ee0-00dcd8519290.png)
+<img width="1385" alt="Screenshot 2024-10-29 at 4 47 21 PM" src="https://github.com/user-attachments/assets/d0f62b3b-f61a-4a14-b4a1-caccdad99085">
 
 The results surprised me because I thought these categories would have a constant positive percentage change throughout time. The Men's and Women's clothing store businesses keep a steady line. Their percentage change never really increases or decreases drastically, until 2020 and 2021. During these two years, there is a massive drop in percentage change, mainly affected by the COVID-19 pandemic which severely impacted retail sales across most sectors, particularly clothing. Overall, the Women's clothing businesses kept a higher percentage change, but not too far away from the men. These two categories show an incredible relationship; they both keep a stationary trend and if one drops, the other one as well. This relationship is not really affected through time. During the 2008 financial crisis, the Men's category suffered a slightly larger percentage drop, but not too far away from the women. 
 
 To confirm the credibility of the last plot, I decided to use again the script from point 5 in [Running Queries From Python](#3.2-Running-Queries-From-Python). I just had to change the Kind of Business to Men's and Women's clothing stores. The results were the following:
-![Screenshot 2024-09-27 at 9.40.48 AM.png](attachment:0d663e85-9b3a-4fe1-9ecb-b7ea62c1436e.png)
+<img width="1254" alt="Screenshot 2024-10-29 at 4 47 35 PM" src="https://github.com/user-attachments/assets/b190fe05-85bc-41ea-97be-7d8f4d3935a1">
 
-![Screenshot 2024-09-27 at 9.41.20 AM.png](attachment:ad379175-f1c0-4e29-8f39-3e5ec33e653c.png)
+<img width="1288" alt="Screenshot 2024-10-29 at 4 47 47 PM" src="https://github.com/user-attachments/assets/788070e5-32d5-48bb-bb1e-b3043eabb9eb">
 
 These two plots indicate mostly a stationary trend and then a steep drop in 2020, which goes hand by hand with the results form the percentage change graph. Additionally, the holiday seasons cause peaks in the plot again. The percentage change graph does not take them into account as it adjusts for seasonal variations and provides a clearer picture of underlying economic conditions. I also noticed the Women's clothing stores category sales more as the graph indicates that the sales vary from an average of 2500-3500 million dollars in comparison to the Men's category which it only varies on average from 700-900 million dollars. Although one sale more than the other, they still keep a relationship.
 
@@ -805,7 +805,7 @@ plt.tight_layout()
 plt.show()
 ```
 The results from the script written above is the graph:
-![Screenshot 2024-09-27 at 10.31.11 AM.png](attachment:6dc6ab17-33e7-4843-a54b-fa9ffb1b5db7.png)
+<img width="1372" alt="Screenshot 2024-10-29 at 4 47 58 PM" src="https://github.com/user-attachments/assets/c3a5e93f-aee5-4f25-806f-6b0641be97d8">
 
 The Women's clothing stores had a higher contribution to the whole, as expected. The Men's category always contributed less, but as time passed, the gap between the contribution from one another decreased. Both categories gradually decrease their percentage contribtuion to the whole as years pass by. In the past twenty years, both categories contribute under 1% of the total of retail and food services sales.
 
@@ -917,7 +917,7 @@ plt.show()
 ```
 This code produced the following graph:
 
-![Screenshot 2024-09-28 at 1.28.51 PM.png](attachment:08b484eb-3c20-4e77-b557-2dbe0bb9bfae.png)
+<img width="1374" alt="Screenshot 2024-10-29 at 4 48 14 PM" src="https://github.com/user-attachments/assets/f99ae1e6-6b5b-4fae-9304-ece06f2224c6">
 
 This plot indicates a clearer visualization of the trend as it does get greatly affected by the seasonal peaks because of the 12-month rolling window that is being used.
 
@@ -926,7 +926,8 @@ This plot indicates a clearer visualization of the trend as it does get greatly 
 The 'Food Services and Drinking Places' category is a vital component of the retail economy, reflecting consumer spending habits in dining and entertainment. Analyzing this category using a 4-month rolling time window helps smooth out short-term fluctuations and highlights underlying trends, providing clearer insights into spending patterns.
 
 To analyze this category I first plotted the original graph of sales per year. This will allow me to differentiate the seasonal peaks affecting objective visualization of the trend, and the difference with the smooth-out process that the rolling windows cause to determine underlying trends. I used the same script from point 5 in [Running Queries From Python](#3.2-Running-Queries-From-Python) and replaced the kind of business for 'Food Services and Drinking Places', the result is the following:
-![Screenshot 2024-09-28 at 1.51.38 PM.png](attachment:81e90ba5-8f1c-4ef8-98e1-7d38122fdcf0.png)
+<img width="1338" alt="Screenshot 2024-10-29 at 4 48 26 PM" src="https://github.com/user-attachments/assets/fada5c1d-b3d6-4555-8313-99bf1fdfa40f">
+
 
 The graph for "Food services and drinking places" shows a steady increase in sales from the early 1990s to around 2019. This trend is characteristic of economic growth and expansion in the food and beverage industry, reflecting greater consumer spending on dining out as household incomes increased, and as the economy grew during this period.
 
@@ -937,48 +938,48 @@ After 2020, there is a visible recovery in sales, though still below pre-pandemi
 Now I will further analyze this kind of business by setting 4 and 12-month rolling windows, and then determine what are the rolling average values, the standard deviations, and the maximum and minimum values per year.
 
 1. 4-month rolling averages:
-![Screenshot 2024-09-28 at 1.58.04 PM.png](attachment:9300e1c5-df31-4509-b0a9-36406c18e85c.png)
+<img width="1347" alt="Screenshot 2024-10-29 at 4 48 36 PM" src="https://github.com/user-attachments/assets/9bddbf2a-a59f-4fa5-b2b0-5bf39647ee6f">
 
 This graph shows the short-term trends in sales data with more granular detail. While the overall trajectory remains upward, there are visible fluctuations that represent short-term changes in the industry. The graph shows noticeable dips, especially during economic downturns (like the one in 2020), and spikes around recovery periods. The 4-month window captures more of these variations, providing insights into seasonal or temporary shifts in sales patterns.
 
 2. 12-month rolling averages:
-![Screenshot 2024-09-28 at 2.01.00 PM.png](attachment:15090d2f-efcf-44fd-9d13-41e37aeccdfd.png)
+<img width="1354" alt="Screenshot 2024-10-29 at 4 48 46 PM" src="https://github.com/user-attachments/assets/71997edb-ce9d-44c5-b7dd-e446c04f0c91">
 
 In contrast, this graph smooths out those short-term fluctuations and provides a broader view of long-term trends. The general growth of sales from 1992 onwards is clearer in this graph. The sharp drop observed around 2020 is less spiky compared to the 4-month graph, but the overall decline due to the COVID-19 pandemic remains evident.
 
 In conclusion, the 12-month rolling average helps to understand long-term trends and reduce noise from short-term fluctuations, while the 4-month rolling average highlights more immediate or short-term variations in sales data. Both graphs show steady growth over the years, with notable declines around significant economic events like the 2020 pandemic.
 
 3. 4-month standard deviations:
-![Screenshot 2024-09-28 at 2.05.51 PM.png](attachment:a54e4c84-c9d9-4dc9-90e3-48f58204c4f4.png)
+<img width="1344" alt="Screenshot 2024-10-29 at 4 48 55 PM" src="https://github.com/user-attachments/assets/3c4fa9ea-ebae-4fdb-86b7-d1416a72b983">
 
 This graph shows more frequent fluctuations in the variability of sales within shorter time frames. From the early 1990s to 2019, the deviations generally increase as sales grow, reflecting more variability as the industry expands. However, the spike in variability during 2020 is particularly notable, indicating a significant disruption, likely linked to the COVID-19 pandemic and its effects on the food services industry.
 
 4. 12-month standard deviations:
-![Screenshot 2024-09-28 at 2.04.30 PM.png](attachment:110e9084-2834-4546-9de7-04c4bd699951.png)
+<img width="1352" alt="Screenshot 2024-10-29 at 4 49 03 PM" src="https://github.com/user-attachments/assets/f3452213-86cd-4aa8-818d-9cb73abae8f7">
 
 This graph smooths out the deviations over a longer period (12 months), showing more gradual changes in variability. Like the 4-month graph, it shows consistent growth in standard deviation over time as sales increase. The impact of 2020 is still highly visible but less sharp, reflecting the cumulative effects of the pandemic over a longer time frame. The overall increase in deviation over time suggests growing instability or variability in sales in the food services industry, particularly in response to macroeconomic disruptions.
 
 In summary, both graphs highlight increasing variability in sales over time, with 2020 representing an outlier due to the pandemic. The 12-month window smooths the data, providing a broader view of trends, while the 4-month window captures more immediate fluctuations.
 
 5. 4-month maximums:
-![Screenshot 2024-09-28 at 2.07.31 PM.png](attachment:d00bc30d-f126-411e-be58-a1306934491c.png)
+<img width="1355" alt="Screenshot 2024-10-29 at 4 49 16 PM" src="https://github.com/user-attachments/assets/6846d6e4-d98f-4f28-85d7-a1c2c07e1bf0">
 
 This graph demonstrates consistent growth in sales starting from the early 1990s until the period leading up to the COVID-19 pandemic in 2020. The rolling 4-month maximum sales steadily increase, reflecting a rise in food services demand, reaching a peak just before the sharp decline in 2020.
 
 6. 12-month maximums:
-![Screenshot 2024-09-28 at 2.13.25 PM.png](attachment:eec3b735-af8c-4954-b993-e3c02adb6e06.png)
+<img width="1338" alt="Screenshot 2024-10-29 at 4 49 31 PM" src="https://github.com/user-attachments/assets/4fce5358-9cae-482f-b2e1-254b58e3dbba">
 
 The 12-month rolling maximum exhibits a similar overall trend to the 4-month maximum but smoothens the fluctuations across a broader period. The 12-month curve appears less volatile, showing a more stable long-term increase in sales until the sudden drop in 2020. The graph highlights the pandemic's significant impact, as both shorter and longer rolling windows reflect a sharp decrease in sales.
 
 Overall, both graphs indicate a robust upward trend in food service sales until 2020, after which there was a dramatic decline due to external shocks such as the pandemic. The 12-month window provides a smoother view of the long-term trend, while the 4-month window captures more frequent fluctuations within the year as expected.
 
 7. 4-month minimums:
-![Screenshot 2024-09-28 at 2.08.37 PM.png](attachment:25e9b35a-ddf2-4a69-bf6c-9fe45256b847.png)
+<img width="1329" alt="Screenshot 2024-10-29 at 4 49 42 PM" src="https://github.com/user-attachments/assets/d793956a-75e6-40a7-af9e-44bac63f4fef">
 
 The graph shows a steadily increasing trend in minimum sales from the early 1990s until around 2019. Post-2019, there is a sharp drop in minimum sales, likely influenced by the COVID-19 pandemic and its impact on the food service industry. The minima hit a significant low around 2020, highlighting the major downturn during this period.
 
 8. 12-month minimums:
-![Screenshot 2024-09-28 at 2.12.31 PM.png](attachment:73651ade-4f14-4933-ac4a-3ce9d027f4db.png)
+<img width="1330" alt="Screenshot 2024-10-29 at 4 49 52 PM" src="https://github.com/user-attachments/assets/35fa060b-9df1-48f3-9f78-831b629a85a0">
 
 The 12-month minima follow a similar pattern to the 4-month window, though the variations appear smoother due to the longer rolling window. The general trend is upward until the sharp dip in 2020, consistent with the global disruptions in food service sectors during the pandemic.
 
@@ -988,53 +989,53 @@ Both minima and maxima trends show a similar overall growth trajectory over time
 
 Additionally, another business that I wanted to analyze was the Hardware stores category. My analysis started the same way, plotting the sales per year graph.
 
-![Screenshot 2024-09-28 at 2.45.01 PM.png](attachment:1e4b34f0-494b-4e04-aa92-796d71b91992.png)
+<img width="1310" alt="Screenshot 2024-10-29 at 4 50 03 PM" src="https://github.com/user-attachments/assets/fe45b11d-b489-470e-bd6d-29023927fab5">
 
 This graph shows the sales trends over time for hardware stores from 1992 to 2021. It demonstrates a steady upward trend, with periodic seasonal fluctuations. The sales appear to peak annually, particularly in the summer months, which is typical for hardware-related activities such as home improvement projects that tend to increase during warmer seasons.
 
 Over time, the sales figures grow significantly, except for a short downtrend seen during the period of the 2008 financial crisis. Sales reached their highest points in 2018 and 2020. However, there is a notable dip in 2021, possibly influenced by external economic factors such as the COVID-19 pandemic, which caused disruptions across many retail sectors. Despite these fluctuations, the overall trajectory indicates a long-term increase in hardware store sales, reflecting growing consumer demand in this sector.
 
 1. 4-month rolling averages:
-![Screenshot 2024-09-28 at 2.30.12 PM.png](attachment:098c618e-810e-4fb3-a76a-eef7917dcb2f.png)
+<img width="1329" alt="Screenshot 2024-10-29 at 4 50 13 PM" src="https://github.com/user-attachments/assets/5665999e-66c2-42cd-86b8-6ce84442bcd8">
 
 The 4-month rolling average graph exhibits higher variability due to the shorter time window, highlighting the more frequent fluctuations in sales. There is a clear long-term upward trend, indicating that hardware store sales have been steadily growing over the decades. The plot also shows some significant dips in sales, especially towards the year 2020, likely due to the economic impacts of the COVID-19 pandemic.
 
 2. 12-month rolling averages:
-![Screenshot 2024-09-28 at 2.31.09 PM.png](attachment:32b16de9-c6c8-4ab6-946b-b4a8ab86922d.png)
+<img width="1347" alt="Screenshot 2024-10-29 at 4 50 22 PM" src="https://github.com/user-attachments/assets/e120be3d-4b26-453c-9c31-26a8db71bab4">
 
 In contrast, the 12-month rolling average smooths out these fluctuations further, offering a more stable view of the overall trend. This graph shows a more gradual and consistent increase in sales over the years, with a less pronounced, but still noticeable, dip around 2020. The overall trend remains positive, indicating strong growth in hardware store sales, with major peaks in the late 2010s.
 
 Both graphs reflect the strong seasonality of hardware store sales and a general upward trajectory over time, with the sharp decline in 2020 likely due to the pandemic's disruptions.
 
 3. 4-month standard deviations:
-![Screenshot 2024-09-28 at 2.34.08 PM.png](attachment:847aeadd-7684-4761-8aba-91cad302d182.png)
+<img width="1328" alt="Screenshot 2024-10-29 at 4 50 41 PM" src="https://github.com/user-attachments/assets/8e3783a7-c537-4461-a8e6-68e2e625564c">
 
 I see relatively stable variability between 1990 and 2010, with fluctuations but not substantial increases. However, post-2010, the standard deviation begins to rise gradually, and it becomes significantly higher around 2020, likely reflecting the economic uncertainty and volatility associated with the COVID-19 pandemic. The standard deviation peaks in 2020, indicating a substantial increase in the variability of sales during that period.
 
 4. 12-month standard deviations:
-![Screenshot 2024-09-28 at 2.32.41 PM.png](attachment:f024043f-1526-4b31-b0f0-269a85e6208a.png)
+<img width="1338" alt="Screenshot 2024-10-29 at 4 50 52 PM" src="https://github.com/user-attachments/assets/fb5706df-fd64-4472-b862-90e3c6e3f0ee">
 
 This graph follows a similar pattern but with smoother fluctuations due to the longer window. There is a steady increase in variability after 2010, followed by a sharp spike around 2020. The smoother nature of this graph compared to the 4-month graph reflects that the longer rolling window smooths out short-term volatility, but the same overall trend of increased variability in recent years is apparent.
 
 Both graphs indicate that the hardware store sector experienced increased volatility during 2020, likely driven by external market factors. The sharp increase in standard deviation during that time demonstrates that sales became more unpredictable. This reflects broader economic disruptions that affected consumer spending patterns during the pandemic.
 
 5. 4-month maximums:
-![Screenshot 2024-09-28 at 2.36.50 PM.png](attachment:d0ba9419-8455-4ee9-91d5-6817246d0625.png)
+<img width="1322" alt="Screenshot 2024-10-29 at 4 51 02 PM" src="https://github.com/user-attachments/assets/fbca67fa-338e-498c-a2e1-43b954f53879">
 
 The graph shows a steady increase in rolling sales from the early 1990s to 2020, with occasional fluctuations reflecting short-term peaks and dips. A noticeable increase is seen around 2020, where rolling sales reach their highest point, peaking near 3,500 million. This aligns with the hardware sales boom seen during the COVID-19 pandemic, driven by a surge in DIY projects as people spent more time at home. However, after the peak, there is a notable decline, reflecting a potential market correction as pandemic-related consumer behavior started to normalize.
 
 6. 12-month maximums:
-![Screenshot 2024-09-28 at 2.38.09 PM.png](attachment:a63f83ee-246a-4cb8-865b-c2208b91d548.png)
+<img width="1333" alt="Screenshot 2024-10-29 at 4 51 11 PM" src="https://github.com/user-attachments/assets/03f54fff-92f1-4182-b72b-e7b0de8e3614">
 
 Sales in hardware stores steadily grow throughout the entire period, reaching a maximum of approximately 3,500 million by the end of the timeline. The impact of the pandemic is also visible here, but the 12-month window makes the fluctuations less pronounced, offering a longer-term perspective on sales trends.
 
 7. 4-month minimums:
-![Screenshot 2024-09-28 at 2.40.03 PM.png](attachment:f5307a68-af5d-485b-bd23-dc9a3f154c53.png)
+<img width="1323" alt="Screenshot 2024-10-29 at 4 51 24 PM" src="https://github.com/user-attachments/assets/22b709a1-0aff-414d-b856-f5d08bfddf3a">
 
 The graph shows a consistent upward trajectory in sales over time, with more fluctuations in the earlier periods (especially before 2000) and smoothing out in the more recent years. The sharp drop in 2020 is still evident, though less pronounced than in the maximums graph. This indicates that the minimums are increasing steadily, showing resilience even during economic downturns, but the fluctuations in sales still cause significant variability.
 
 8. 12-month minimums:
-![Screenshot 2024-09-28 at 2.39.21 PM.png](attachment:c236a2a2-111a-485c-9f32-f9b13d8fd6ca.png)
+<img width="1332" alt="Screenshot 2024-10-29 at 4 51 34 PM" src="https://github.com/user-attachments/assets/9b2db5ad-c243-49b1-bcc6-bfdade8b5c16">
 
 The 12-month rolling minimums also follow a similar pattern, with steady growth over time, particularly post-2000. The trend is smoother than the 4-month graph, indicating that while shorter-term fluctuations affect hardware sales significantly, the overall long-term trend is upward. The 2020 drop is visible here too but less dramatic compared to the short-term data, suggesting that while the sector experienced disruption, it was cushioned over the longer time frame.
 

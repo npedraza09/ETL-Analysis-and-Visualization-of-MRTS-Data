@@ -1,27 +1,27 @@
+<a class="anchor" id="Index"></a>
 # Index
 
 - [Abstract](#Abstract)
-- [1. Introduction](#1.-Introduction)
-- [2. Extract-Transform-Load](#2.-Extract-Transform-Load)
-    - [2.1 The ETL Process](#2.1-The-ETL-Process)
-    - [2.2 Data Exploration](#2.2-Data-Exploration)
-    - [2.3 Data Preparation](#2.3-Data-Preparation)
-    - [2.4 Read the Data Using Python](#2.4-Reading-the-Data-Using-Python)
-         - [2.4.1 Reading Sample Data](#2.4.1-Reading-Sample-Data)
-         - [2.4.2 Reading the MRST Data](#2.4.2-Reading-the-MRST-Data)
-    - [2.5 Writing an Installation Script](#2.5-Writing-an-Installation-Script)
-- [3. Analysis and Visualization](#3.-Project-Description)
-    - [3.1 Running Queries in MySQL Workbench](#3.1-Running-Queries-in-MySQL-Workbench)
-    - [3.2 Running Queries From Python](#3.2-Running-Queries-From-Python)
-    - [3.3 Explore Trends](#3.3-Explore-Trends)
-    - [3.4 Explore Percentage Change](#3.4-Explore-Percentage-Change)
-    - [3.5 Explore Rolling Time Windows](#3.5-Explore-Rolling-Time-Windows)
+- [1. Introduction](#Introduction)
+- [2. Extract-Transform-Load](#Extract-Transform-Load)
+    - [2.1 The ETL Process](#The-ETL-Process)
+    - [2.2 Data Exploration](#Data-Exploration)
+    - [2.3 Data Preparation](#Data-Preparation)
+    - [2.4 Read the Data Using Python](#Reading-the-Data-Using-Python)
+         - [2.4.1 Reading Sample Data](#Reading-Sample-Data)
+         - [2.4.2 Reading the MRST Data](#Reading-the-MRST-Data)
+    - [2.5 Writing an Installation Script](#Writing-an-Installation-Script)
+- [3. Analysis and Visualization](#Project-Description)
+    - [3.1 Running Queries in MySQL Workbench](#Running-Queries-in-MySQL-Workbench)
+    - [3.2 Running Queries From Python](#Running-Queries-From-Python)
+    - [3.3 Exploring Trends](#Explore-Trends)
+    - [3.4 Exploring Percentage Change](#Explore-Percentage-Change)
+    - [3.5 Exploring Rolling Time Windows](#Explore-Rolling-Time-Windows)
 - [Conclusion](#Conclusion)
 - [References](#References)
 
 
-[Back to top](#Index)
-
+<a class="anchor" id="Abstract"></a>
 ##  Abstract
 
 This project focuses on the analysis of the Monthly Retail Trade Survey (MRTS) data to uncover trends in U.S. retail sales across various business categories. The analysis was conducted through an ETL process, beginning with SQL installation, querying, and extraction of the MRTS data, followed by cleaning and transformation using Python. Key metrics such as total sales, percentage contributions, and rolling averages were computed for categories like food services, sporting goods, and clothing stores. The data visualization revealed key insights, including the rise in spending on sporting goods, the decline of bookstores, and the shrinking gap between men’s and women’s clothing stores in terms of contribution to retail totals. The use of rolling time windows smoothed the data, providing clearer long-term trends. This comprehensive analysis demonstrates how retail sectors have evolved, with notable shifts in consumer behavior over time.
@@ -29,6 +29,7 @@ This project focuses on the analysis of the Monthly Retail Trade Survey (MRTS) d
 
 [Back to top](#Index)
 
+<a class="anchor" id="Introduction"></a>
 ## 1. Introduction
 
 In this project, I performed an ETL (Extract, Transform, Load) process and conducted a detailed analysis of the Monthly Retail Trade Survey (MRTS) data. The primary goal was to extract key insights from retail categories, including multiple store categories, and visualize trends over time.
@@ -46,10 +47,12 @@ This project provided valuable insights into how consumer spending behaviors are
 
 [Back to top](#Index)
 
+<a class="anchor" id="Extract-Transform-Load"></a>
 ## 2. Extract-Transform-Load
 
 [Back to top](#Index)
 
+<a class="anchor" id="The-ETL-Process"></a>
 ### 2.1 The ETL Process
 
 #### 1. Extract:  
@@ -64,6 +67,7 @@ Insert the clean data to a MySQL database by writing code that allows you to rea
 
 [Back to top](#Index)
 
+<a class="anchor" id="Data-Exploration"></a>
 ### 2.2 Data Exploration
 
 The MRTS Dataset produces the most comprehensive data available on retail economic activity in the United States. These data are widely used throughout government, academic, and business communities. The Bureau of Economic Analysis uses the estimates to calculate Gross Domestic Product. The Bureau of Labor Statistics uses the estimates to develop consumer price indexes and productivity measurements. The Council of Economic Advisers uses the estimates to analyze current economic activity. The Federal Reserve Board uses the estimates to assess recent trends in consumer purchases. The media use the estimates to report news of recent consumer activity. Financial and investment companies use the estimates to measure recent economic trends.
@@ -73,6 +77,7 @@ Default fields for each year tab of the original .XLSX file include the NAICS Co
 
 [Back to top](#Index)
 
+<a class="anchor" id="Data-Preparation"></a>
 ### 2.3 Data Preparation
 
 1. I began by editing the Excel file. I deleted all columns that I found unnecessary and extra info that was not needed in my database. I only took the "Not Adjusted" values, as recommended in one of the previous videos by Dr. Sanchez.
@@ -82,6 +87,7 @@ Default fields for each year tab of the original .XLSX file include the NAICS Co
 
 [Back to top](#Index)
 
+<a class="anchor" id="Read-the-Data-Using-Python"></a>
 ### 2.4 Read the Data Using Python
 
 #### Option 1 ####
@@ -92,6 +98,7 @@ Another way to read the data from the CSV file is by using the pandas library fr
 
 [Back to top](#Index)
 
+<a class="anchor" id="Reading-Sample-Data"></a>
 ### 2.4.1 Reading Sample Data
 
 I have created a sample dataset called "users". This is a CSV file. This dataset has some normal entries, but other entries have an "(S)", "(NA)", or an empty cell to simulate these scenarios from the MRTS dataset.
@@ -108,6 +115,7 @@ sample_df # Check the sample dataframe
 
 [Back to top](#Index)
 
+<a class="anchor" id="Reading-the-MRTS-Data"></a>
 ### 2.4.2 Reading the MRTS Data
 
 We will open the MRTS CSV file the same way we opened the "users.csv" file.
@@ -204,6 +212,7 @@ db_connection.close()
 
 [Back to top](#Index)
 
+<a class="anchor" id="Analysis-and-Visualization"></a>
 ## 3. Analysis and Visualization
 
 We will start this section by comparing MySQL Workbench to a Python environment.
@@ -220,6 +229,7 @@ With Python, after retrieving data with an SQL query, you can manipulate it usin
 
 [Back to top](#Index)
 
+<a class="anchor" id="Running-Queries-in-MySQL-Workbench"></a>
 ### 3.1 Running Queries in MySQL Workbench
 
 1. The first query I ran was a simple query to get a description of the table I uploaded into my database.
@@ -297,6 +307,7 @@ SELECT
 
 [Back to top](#Index)
 
+<a class="anchor" id="Running-Queries-From-Python"></a>
 ### 3.2 Running Queries From Python
 
 1.
@@ -559,7 +570,8 @@ plt.show()
 
 [Back to top](#Index)
 
-### 3.3 Explore Trends
+<a class="anchor" id="Explore-Trends"></a>
+### 3.3 Exploring Trends
 
 An economic trend is a pattern in data that shows how a time series changes in comparison to relatively higher or lower values over a period of time. This can be the direction (upward, downward, or stationary) of a particular economic indicator or the general movement of the economy as a whole.   
 
@@ -578,18 +590,23 @@ Query number 5, seen in the [Running Queries Section](#3.1-Running-Queries-in-My
 To display the data clearly, I had to do some organization and cleanup to have a clear understanding of the trend. First, I grouped each year with their corresponding months. This was done to have an output of each month of each year. I then added the sales per month to each date row. The table had some null values for month sale totals, which would cause the plot to look messy. Therefore, I specified in my code that all values that were not null were not going to be taken into account. Additionally, I read the results from the query into a dataframe for better readability. I added a code line that made the date column I created into a datetime format; this eased the plotting process. At last, I only had the years as the tick marks in the x axis; this made the x axis readable and not crowded by every month of every year.
 
 1. Retail and Food Services Sales, Total
+
 <img width="1332" alt="Screenshot 2024-10-29 at 4 45 55 PM" src="https://github.com/user-attachments/assets/1a33f5ff-abb5-4838-bc00-1974c3a9c81c">
 
 2. Retail sales and food services excl motor vehicle and parts
+
 <img width="1333" alt="Screenshot 2024-10-29 at 4 46 05 PM" src="https://github.com/user-attachments/assets/abd77e63-f3fb-449e-8848-b82b5196c680">
 
 3. Retail sales and food services excl gasoline stations
+   
 <img width="1338" alt="Screenshot 2024-10-29 at 4 46 15 PM" src="https://github.com/user-attachments/assets/73edf9e8-6de4-4d4f-8463-a5b25e116799">
 
 4. Retail sales and food services excl motor vehicle and parts and gasoline stations
+   
 <img width="1377" alt="Screenshot 2024-10-29 at 4 46 27 PM" src="https://github.com/user-attachments/assets/dcfd68ac-18e3-41e0-a8de-5ba00688f11c">
 
 5. Retail sales, Total
+   
 <img width="1305" alt="Screenshot 2024-10-29 at 4 46 36 PM" src="https://github.com/user-attachments/assets/88f24dc1-1233-4b37-9732-4f68d60e30b2">
 
 
@@ -600,12 +617,14 @@ After plotting every retail category, it is very clear that this category has an
 I wanted to do some further analysis by comparing other businesses such as sporting good stores, hobby and toys stores, and book stores. By analyzing these businesses I can get a better idea of how each business behaves through seasons and economic historical times. To plot the graphs that helped me visualize the trends, I used the same query and code script that was used for the retail and food services analysis.
 
 1. Sporting Good Stores
+
 <img width="1323" alt="Screenshot 2024-10-29 at 4 46 46 PM" src="https://github.com/user-attachments/assets/63a2061f-14d8-4202-a0f7-a3ecd912e318">
 
 This industry has overall shown an uptrend, the same as the retail and food services industry. But, between the years 2016-2020, I noticed a downtrend. After some investigation, I realized that the sporting goods industry had a negative impact because of multiple factors. One factor was the E-commerce growth. Online shopping became increasingly popular, leading to a shift in sales away from traditional brick-and-mortar stores. Another factor was the rise of direct-to-consumer brands which bypassed traditional retailers. The last big factor, was the COVID-19 pandemic which led to widespread lockdowns and restrictions on outdoor activities, causing a sharp decline in demand for sporting goods. As gyms closed, consumers turned to home fitness equipment, leading to a surge in demand for products like treadmills, dumbbells, and yoga mats. The demand of these products at people's homes caused the industry to return to an uptrend, as seen in the plot. Also, once the lockdowns were over, people were eager to go back into sports, fitness, and outdoor activities.
 
 
 2. Hobby, Toy, and Game Stores
+
 <img width="1346" alt="Screenshot 2024-10-29 at 4 46 55 PM" src="https://github.com/user-attachments/assets/412f7a94-0e79-47fa-9d55-b2cac110b691">
 
 The category of hobby, toy, and game stores has a stationary trend between 1992-2021. There is an all-time peak in 1997, which surprised me. I could also easily notice a seasonal pattern for the Christmas season. Between the months of November to January the sales reach high peaks, an exponential growth from the average sales of the past months, But, it then drops back down to the stationary trend. This pattern was repeated all the way until 2018. There is a downtrend between 2018-2020. After some doing some research, I understood that this downtrend had happened because of multiple factors, as usual.
@@ -617,6 +636,7 @@ Secondly, another factor that played a big role in the downtrend of these indust
 Lastly, online retailers like Amazon and Walmart gained significant market share, offering a wider selection of products, competitive prices, and convenient delivery options. This shift led to increased competition for traditional brick-and-mortar stores. Consumers increasingly prefer shopping online, especially for convenience and price comparison. This trend accelerated during the COVID-19 pandemic, as lockdowns and social distancing measures limited in-store shopping.
 
 3. Book stores
+
 <img width="1330" alt="Screenshot 2024-10-29 at 4 47 05 PM" src="https://github.com/user-attachments/assets/ffa84ae1-ca89-4107-aa18-80c501d3da92">
 
 There is a clear upward trend in sales from 1992 until around 2007-2008. This was likely a time of growth in retail book sales, particularly with the rise of large bookstore chains. Sales appear to peak sharply around the holiday season (likely November, December, and January), which is typical in retail sectors due to holiday shopping. Also, there are peaks in August, this indicates that this increase in sales might be due to schools starting their academic years, and having professors and students purchase all necessary books for the year.
@@ -631,7 +651,8 @@ Overall, the highest trend between the last three plots is the uptrend from the 
 
 [Back to top](#Index)
 
-### 3.4 Explore Percentage Change
+<a class="anchor" id="Explore-Percentage-Change"></a>
+### 3.4 Exploring Percentage Change
 
 In economics, the percentage change is a way to quantify how much a particular economic variable has increased or decreased relative to its initial value over a specific period. It is calculated using the formula:
 
@@ -812,7 +833,8 @@ The Women's clothing stores had a higher contribution to the whole, as expected.
 
 [Back to top](#Index)
 
-### 3.5 Explore Rolling Time Windows
+<a class="anchor" id="Explore-Rolling-Time-Windows"></a>
+### 3.5 Exploring Rolling Time Windows
 
 - In economics, what is the rolling time window and why is it considered an important measure to predict quantities like spending patterns?
 
@@ -1044,6 +1066,7 @@ Both the minimum and maximum graphs highlight an overall increase in hardware st
 
 [Back to top](#Index)
 
+<a class="anchor" id="Conclusion"></a>
 ## Conclusion
 
 The sporting goods business category appears to attract the most spending due to the increasing focus on health, fitness, and recreational activities. Over recent decades, there has been a shift toward active lifestyles, especially with the rise of athleisure, home workout equipment, and outdoor activities. This trend became even more pronounced during the COVID-19 pandemic when people sought new ways to stay active while gyms were closed. As a result, sporting goods have seen consistent growth in consumer spending, benefiting from this sustained demand.
@@ -1058,11 +1081,10 @@ In conclusion, the MRTS data reveals evolving consumer behavior, where preferenc
 
 
 
-[Back to top](#Index
-)
-## References
+[Back to top](#Index)
 
-Add all references you used to complete this project.
+<a class="anchor" id="References"></a>
+## References
 
 - Amazon. "What is ETL (Extract Transform Load)". AWS Amazon. https://aws.amazon.com/what-is/etl/
 - A&G Statworks. "Converting CSV to SQL with Python". A&G Statworks, 2019. https://www.youtube.com/watch?v=x8i9haDHR0s&ab_channel=A%26GStatworks

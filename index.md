@@ -434,6 +434,7 @@ for row in results:
 cursor.close()
 db_connection.close()
 
+
 4.
 
 import mysql.connector

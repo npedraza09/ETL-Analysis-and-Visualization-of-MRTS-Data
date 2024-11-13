@@ -310,7 +310,7 @@ SELECT
 <a class="anchor" id="Running-Queries-From-Python"></a>
 ### 3.2 Running Queries From Python
 
-1. 
+1.
 ```python
 import mysql.connector
 
@@ -348,6 +348,7 @@ for row in table_description:
 cursor.close()
 db_connection.close()
 ```
+
 2. 
 ```python
 import mysql.connector
@@ -389,7 +390,7 @@ cursor.close()
 db_connection.close()
 ```
 
-3. 
+3.
 ```python
 import mysql.connector
 
@@ -433,9 +434,10 @@ for row in results:
 # Step 7: Close the cursor and connection
 cursor.close()
 db_connection.close()
+
 ```
 
-4. 
+4.
 ```python
 import mysql.connector
 
@@ -482,6 +484,7 @@ cursor.close()
 db_connection.close()
 
 ```
+
 5. 
 ```python
 from sqlalchemy import create_engine
@@ -561,6 +564,7 @@ years = df['Date'].dt.year.unique()
 plt.xticks(pd.to_datetime([f'{year}-01-01' for year in years]), years, rotation=45)
 
 plt.show()
+
 ```
 
 

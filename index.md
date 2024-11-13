@@ -310,8 +310,8 @@ SELECT
 <a class="anchor" id="Running-Queries-From-Python"></a>
 ### 3.2 Running Queries From Python
 
-1.
 ```python
+1.
 import mysql.connector
 
 # Step 1: Connect to the MySQL database
@@ -387,10 +387,10 @@ for row in results:
 # Step 7: Close the cursor and connection
 cursor.close()
 db_connection.close()
-```
+
 
 3.
-```python
+
 import mysql.connector
 
 # Step 1: Connect to the MySQL database
@@ -434,10 +434,8 @@ for row in results:
 cursor.close()
 db_connection.close()
 
-```
-
 4.
-```python
+
 import mysql.connector
 
 # Step 1: Connect to the MySQL database
@@ -482,10 +480,9 @@ for row in results:
 cursor.close()
 db_connection.close()
 
-```
 
 5. 
-```python
+
 from sqlalchemy import create_engine
 import pandas as pd
 import matplotlib.pyplot as plt

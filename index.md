@@ -50,8 +50,6 @@ This project provided valuable insights into how consumer spending behaviors are
 <a class="anchor" id="Extract-Transform-Load"></a>
 ## 2. Extract-Transform-Load
 
-[Back to top](#Index)
-
 <a class="anchor" id="The-ETL-Process"></a>
 ### 2.1 The ETL Process
 
@@ -96,7 +94,6 @@ One way that Python can read a .csv file is by using its CSV package. This packa
 #### Option 2 ####
 Another way to read the data from the CSV file is by using the pandas library from Python. This library allows you to read the CSV file and immediately convert it to a data frame.
 
-[Back to top](#Index)
 
 <a class="anchor" id="Reading-Sample-Data"></a>
 ### 2.4.1 Reading Sample Data
@@ -112,8 +109,6 @@ sample_df = pd.read_csv('users.csv') # Read CSV file and convert to a dataframe
 sample_df # Check the sample dataframe
 ```
 
-
-[Back to top](#Index)
 
 <a class="anchor" id="Reading-the-MRTS-Data"></a>
 ### 2.4.2 Reading the MRTS Data

@@ -347,9 +347,9 @@ for row in table_description:
 # Step 8: Close the cursor and connection
 cursor.close()
 db_connection.close()
-```
+
 2. 
-```python
+
 import mysql.connector
 
 # Step 1: Connect to the MySQL database

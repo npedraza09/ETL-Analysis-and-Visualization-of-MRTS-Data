@@ -348,6 +348,7 @@ for row in table_description:
 cursor.close()
 db_connection.close()
 
+
 2. 
 
 import mysql.connector

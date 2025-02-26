@@ -1089,3 +1089,9 @@ In conclusion, the MRTS data reveals evolving consumer behavior, where preferenc
 - Tighe, D. "Sporting goods store sales in the U.S. from 1992 to 2022". Statista, 2024. https://www.statista.com/statistics/197704/annual-sporting-goods-store-sales-in-the-us-since-1992/
 - Page, Lucy E. "The Effect of E-commerce Expansion on Local Retail". National Bureau of Economic Research, 2022. https://www.nber.org/digest/202208/effect-e-commerce-expansion-local-retail
 - ProjectPro - Data Science Projects. "Rolling Time Window in Python". 2019. https://www.youtube.com/watch?v=_buD5zGD230&ab_channel=ProjectPro-DataScienceProjects 
+
+### Tools:
+* Python
+* SQL
+* Excel
+* Libraries: Pandas, Numpy, Mysqlconnector, Matplotlib.pyplot, Sqlalchemy

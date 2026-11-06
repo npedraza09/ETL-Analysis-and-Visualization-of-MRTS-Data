@@ -1,5 +1,3 @@
-<a href="https://nicopedrazaportfolio.netlify.app/">Back to My Portfolio</a>
-
 <a class="anchor" id="Index"></a>
 # Index
 

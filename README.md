@@ -1,5 +1,19 @@
-# 📈 ETL Analysis and Visualization of MRTS Data
+# ETL, Analysis and Visualization of MRTS Data
 
-This project focuses on the analysis of the Monthly Retail Trade Survey (MRTS) data to uncover trends in U.S. retail sales across various business categories. The analysis was conducted through an ETL process, beginning with SQL installation, querying, and extraction of the MRTS data, followed by cleaning and transformation using Python. Key metrics such as total sales, percentage contributions, and rolling averages were computed for categories like food services, sporting goods, and clothing stores. The data visualization revealed key insights, including the rise in spending on sporting goods, the decline of bookstores, and the shrinking gap between men’s and women’s clothing stores in terms of contribution to retail totals. The use of rolling time windows smoothed the data, providing clearer long-term trends. This comprehensive analysis demonstrates how retail sectors have evolved, with notable shifts in consumer behavior over time.
+An ETL and analysis project on the U.S. Census Bureau's Monthly Retail Trade Survey (MRTS). Built for my MIT Professional Certificate in Data Engineering (2024–2025).
 
-Check the **index.md** file to see the full project. Enjoy!
+## What I did
+
+1. **Extract and load:** loaded the MRTS data into MySQL and cleaned and reshaped it in Python.
+2. **Query:** ran the analysis queries in MySQL Workbench and again from Python.
+3. **Analyze:** compared sales trends, each category's percentage of total retail sales, and 4- and 12-month rolling averages with pandas and matplotlib.
+
+## What the data showed
+
+- Of the categories I compared, sporting goods drew the most spending and kept growing, while bookstores drew the least and declined.
+- Men's and women's clothing stores both took a shrinking share of total retail sales, and the gap between them narrowed.
+- A 12-month rolling window smoothed out seasonal swings and made the long-term trends easier to see than a 4-month window.
+
+The full write-up, with queries and charts, is in [index.md](index.md). The notebook is `Module 8_Final_Project.ipynb`.
+
+**Built with:** Python, MySQL, SQL, pandas, matplotlib, Jupyter
